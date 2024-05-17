@@ -615,10 +615,20 @@ a:focus {
 
 // book section
 .book_section {
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   position: relative;
 
   .heading_container {
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
 
